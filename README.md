@@ -1,34 +1,23 @@
-# Sistem Analisis Markah - SMK Kampar
+# Sistem Analisis Markah SMK Kampar
 
-Fail ini disediakan untuk diterbitkan melalui GitHub Pages.
+Fail ini telah dikemas kini untuk GitHub Pages tanpa mengubah fungsi asal sistem.
 
-## Fail utama
+## Fail untuk upload ke GitHub
+- `index.html`
 
-- `index.html` - fail sistem utama yang perlu berada di root repository GitHub.
-- `kod_html_smk_kampar.txt` - salinan kod HTML untuk rujukan/copy paste.
-
-## Maklumat yang telah dikemaskini
-
+## Maklumat yang telah ditukar
 - Nama sekolah: SEKOLAH MENENGAH KEBANGSAAN KAMPAR
-- Sheet ID: `1qd_mKBeaLnwjJRdwczk6NB5pXvnXRY95FkEez7kk5aI`
-- Apps Script URL: `https://script.google.com/macros/s/AKfycbxAqjRO6YX6bDI0_c_-gLzSS6wf-1pN4gIOvbyIRVe-3Kxg5UXV69dysjo8sMTxT0XpoA/exec`
-- CSV Nama Murid: `https://docs.google.com/spreadsheets/d/e/2PACX-1vTIHvoidJnTgwp5dnnldADCqBbGrf4PI1h73RIeS41_2_4HARsq9iwXtF3f5mwwPsbSUDaDILWDiyoU/pub?gid=0&single=true&output=csv`
-- CSV Pentaksiran dan Subjek: `https://docs.google.com/spreadsheets/d/e/2PACX-1vTIHvoidJnTgwp5dnnldADCqBbGrf4PI1h73RIeS41_2_4HARsq9iwXtF3f5mwwPsbSUDaDILWDiyoU/pub?gid=527445164&single=true&output=csv`
-- CSV Markah/Analisis/Pelaporan: `https://docs.google.com/spreadsheets/d/e/2PACX-1vTIHvoidJnTgwp5dnnldADCqBbGrf4PI1h73RIeS41_2_4HARsq9iwXtF3f5mwwPsbSUDaDILWDiyoU/pub?gid=137716384&single=true&output=csv`
-- Lencana sekolah: `https://iili.io/C2Vtyb4.md.jpg`
+- Logo sekolah: https://iili.io/C2Vtyb4.md.jpg
+- URL Apps Script: https://script.google.com/macros/s/AKfycbxAqjRO6YX6bDI0_c_-gLzSS6wf-1pN4gIOvbyIRVe-3Kxg5UXV69dysjo8sMTxT0XpoA/exec
+- CSV nama murid: gid=0
+- CSV pentaksiran dan subjek: gid=527445164
+- CSV rekod markah untuk analisis/slip: gid=137716384
+- Sheet ID tapak penyimpanan data: 1qd_mKBeaLnwjJRdwczk6NB5pXvnXRY95FkEez7kk5aI
 
-## Cara publish melalui GitHub Pages
-
+## Cara publish di GitHub Pages
 1. Cipta repository baharu di GitHub.
-2. Upload fail `index.html` ke repository tersebut.
-3. Buka **Settings** > **Pages**.
-4. Pada bahagian **Build and deployment**, pilih:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/root**
-5. Klik **Save**.
-6. Tunggu beberapa minit sehingga link GitHub Pages aktif.
-
-## Nota penting
-
-Pastikan Google Sheets telah dipublish sebagai CSV dan Apps Script telah dideploy sebagai Web App dengan akses yang betul.
+2. Upload `index.html` ke repository tersebut.
+3. Pergi ke Settings > Pages.
+4. Pilih Source: Deploy from a branch.
+5. Branch: main / root.
+6. Save dan buka link GitHub Pages yang diberikan.
